@@ -1,21 +1,25 @@
-<div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p>
-</div>
+h1 {
+  color: #e5b2e8;
+  background-color: #994422;
+  font-family: 'Allison', cursive;
+}
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-</div>
+#first{
+  background-color: #ee7788;
+  margin: 20px;
+  padding: 5px;
+}
+
+.middle {
+  text-align: center;
+  color: #dddddd;
+  background-color: #443322;
+  margin: 50px;
+  padding: 10px;
+}
+
+#second{
+  background-color: #998899;
+  margin: 5px;
+  padding: 20px;
+}

@@ -1,25 +1,2 @@
-h1 {
-  color: #e5b2e8;
-  background-color: #994422;
-  font-family: 'Allison', cursive;
-}
-
-#first{
-  background-color: #ee7788;
-  margin: 20px;
-  padding: 5px;
-}
-
-.middle {
-  text-align: center;
-  color: #dddddd;
-  background-color: #443322;
-  margin: 50px;
-  padding: 10px;
-}
-
-#second{
-  background-color: #998899;
-  margin: 5px;
-  padding: 20px;
-}
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">

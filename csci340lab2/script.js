@@ -5,8 +5,11 @@ $(document).ready(function() {
         jsonpCallback: "parseQuote",
         url: "https://api.adviceslip.com/advice?Callback=crystaladvice"
         success: function(results) {
-       console.log(results["url"]);
-        }
+       $('.crystaladvice').text(results["Callback"]);
+     },
+     error: function(xhr,status,error) {
+       console.log(error);
+     }
       });
     });
   });

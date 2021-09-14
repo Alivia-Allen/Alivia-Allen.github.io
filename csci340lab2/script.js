@@ -6,6 +6,7 @@ $.ajax({
         w3.getHttpObject("https://api.adviceslip.com/advice", function(data)){
           advice=data.slip.advice
           alert(advice)
+          .startbutton onclick="getadvice()"
         )};
         }
       }

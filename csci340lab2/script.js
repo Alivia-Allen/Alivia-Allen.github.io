@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#startbutton').click(function() {
+  $('.crystal').click(function() {
     $.ajax({
       dataType: "jsonp",
         jsonpCallback: "parseQuote",

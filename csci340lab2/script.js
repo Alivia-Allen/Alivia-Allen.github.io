@@ -5,7 +5,7 @@ $(document).ready(function() {
         jsonpCallback: "parseQuote",
         url: "https://api.adviceslip.com/advice?Callback=crystaladvice"
         success: function(results) {
-       $('.fortune').text(results["advice"]);
+       console.log('jsonpCallback', this.Callback);
      },
      error: function(xhr,status,error) {
        console.log(error);

@@ -1,16 +1,14 @@
-$(document).ready(function() {
-  $('.crystal').click(function() {
-    $.ajax({
-      dataType: "jsonp",
-        jsonpCallback: "parseQuote",
-        url: "https://api.adviceslip.com/advice?Callback=crystaladvice"
-        success: function(results) {
-       console.log('jsonpCallback', this.Callback);
-     },
-     error: function(xhr,status,error) {
-       console.log(error);
-     }
-      });
+$.ajax({
+    dataType: "jsonp",
+      jsonpCallback: "parseQuote",
+      url: "https://api.adviceslip.com/advice?Callback=crystaladvice"
+      .function(getadvice){
+        w3.getHttpObject("https://api.adviceslip.com/advice", function(data)){
+          advice=data.slip.advice
+          alert(advice)
+        )};
+        }
+      }
     });
   });
 });

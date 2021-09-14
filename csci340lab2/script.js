@@ -3,7 +3,7 @@ $(document).ready(function() {
     $.ajax({
       dataType: "jsonp",
      jsonpCallback: "parseQuote",
-     url: "https://api.adviceslip.com/advice/jsonpCallback=[advice]"
+     url: "https://api.adviceslip.com/advice?Callback=crystaladvice"
     });
   });
 });
